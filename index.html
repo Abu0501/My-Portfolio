@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdullah S — Django Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header id="siteHeader">
+  <div class="logo">Abdullah<span>.S</span><span class="mono"> /Dev</span></div>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav>
+    <ul id="navList">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="eyebrow"><span class="dot"></span> Available for opportunities</span>
+        <h1 class="hero-title">Abdullah S — building backends that <em class="underline-bright">scale</em>, in Django.</h1>
+        <p class="hero-sub">I design and ship full-stack web applications and APIs, with a focus on clean Django architecture, reliable data models, and products people actually want to use.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="1000074592.jpg" alt="Portrait of Abdullah S" id="profileImg">
+        </div>
+      </div>
+    </div>
+
+    <div class="terminal" aria-hidden="true">
+      <div class="terminal-bar"><span></span><span></span><span></span></div>
+      <div class="terminal-body" id="termBody"></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-head reveal">
+      <span class="tag">01</span>
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>I'm a Django developer who enjoys turning ideas into working products — from data models and REST APIs to the small UI details that make an app feel finished.</p>
+        <p>I care about readable code, sensible project structure, and shipping features that hold up once real users touch them. Outside of Django, I've been exploring Flutter to build cross-platform mobile experiences.</p>
+        <div class="stack">
+          <span class="chip">Python</span>
+          <span class="chip">Django</span>
+          <span class="chip">Django REST Framework</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">Flutter</span>
+          <span class="chip">HTML / CSS / JS</span>
+          <span class="chip">Git & GitHub</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="skills">
+          <div class="skill-row">
+            <div class="meta"><span>Django / Python</span><span>90%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="meta"><span>REST APIs</span><span>82%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="82"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="meta"><span>Databases (PostgreSQL/SQLite)</span><span>78%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="78"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="meta"><span>Flutter / Mobile</span><span>65%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="65"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="meta"><span>Frontend (HTML/CSS/JS)</span><span>72%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="72"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-head reveal">
+      <span class="tag">02</span>
+      <h2>Selected Projects</h2>
+    </div>
+    <div class="projects-grid">
+      <article class="project-card reveal">
+        <span class="project-number">project / 01</span>
+        <h3>Full-Stack Web Applications with Django</h3>
+        <p>End-to-end web applications built on Django — covering models, authentication, admin tooling, and server-rendered or API-driven frontends, designed for clarity and maintainability.</p>
+        <div class="project-tags">
+          <span>Django</span><span>Python</span><span>PostgreSQL</span><span>REST API</span>
+        </div>
+        <a class="project-link" href="https://github.com/Abu0501" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <article class="project-card reveal">
+        <span class="project-number">project / 02</span>
+        <h3>Chattr — Mobile App in Flutter</h3>
+        <p>A mobile chat application built with Flutter, focused on a smooth cross-platform user experience and real-time-feeling interactions on Android and iOS.</p>
+        <div class="project-tags">
+          <span>Flutter</span><span>Dart</span><span>Mobile</span><span>UI/UX</span>
+        </div>
+        <a class="project-link" href="https://github.com/Abu0501" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact reveal">
+      <h2>Let's build something solid together.</h2>
+      <p>Open to Django developer roles, internships, and freelance backend work. The fastest way to reach me is email or LinkedIn.</p>
+      <div class="contact-links">
+        <a href="mailto:mohamedasif344@gmail.com">✉ mohamedasif344@gmail.com</a>
+        <a href="https://www.linkedin.com/in/abdullah-s-579778263/" target="_blank" rel="noopener">in LinkedIn</a>
+        <a href="https://github.com/Abu0501" target="_blank" rel="noopener">⌥ GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Abdullah S — built with HTML, CSS &amp; JavaScript.</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
